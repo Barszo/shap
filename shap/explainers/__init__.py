@@ -1,4 +1,5 @@
 from ._additive import AdditiveExplainer
+from ._bcg_fluctuations import BcgFluctuationsExplainer
 from ._deep import DeepExplainer
 from ._exact import ExactExplainer
 from ._gpu_tree import GPUTreeExplainer
@@ -22,6 +23,7 @@ Partition = PartitionExplainer
 Permutation = PermutationExplainer
 Sampling = SamplingExplainer
 Tree = TreeExplainer
+BcgFluctuations = BcgFluctuationsExplainer
 
 __all__ = [
     "AdditiveExplainer",
@@ -35,4 +37,5 @@ __all__ = [
     "PermutationExplainer",
     "SamplingExplainer",
     "TreeExplainer",
+    "BcgFluctuationsExplainer",
 ]

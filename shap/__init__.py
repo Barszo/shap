@@ -3,6 +3,7 @@ from ._explanation import Cohorts, Explanation
 # explainers
 from .explainers import other
 from .explainers._additive import AdditiveExplainer
+from .explainers._bcg_fluctuations import BcgFluctuationsExplainer
 from .explainers._deep import DeepExplainer
 from .explainers._exact import ExactExplainer
 from .explainers._explainer import Explainer
@@ -112,6 +113,7 @@ __all__ = [
     "PermutationExplainer",
     "SamplingExplainer",
     "TreeExplainer",
+    "BcgFluctuationsExplainer",
     # Plots
     "plots",
     "bar_plot",
